@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name" />
+        android:text="-34.00" />
 
     <EditText
         android:id="@+id/longitude"
@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="151.00"
         android:layout_below="@id/lattitude"/>
 
     <Button
@@ -35,6 +35,13 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/longitude"
         android:layout_marginTop="17dp"
-        android:text="Button" />
+        android:text="Show" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/submit"
+        android:padding="20dp" />
 
 </RelativeLayout>
